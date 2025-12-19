@@ -1,11 +1,11 @@
-package com.mingyuan.wxy.cloud.sentinel.service;
+package com.mingyuan.wxy.tools.cloud.sentinel.service;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import static com.mingyuan.wxy.cloud.sentinel.constant.CommonConstant.SAY;
-import static com.mingyuan.wxy.cloud.sentinel.constant.CommonConstant.TEST_FALLBACK;
+import static com.mingyuan.wxy.tools.cloud.sentinel.constant.CommonConstant.SAY;
+import static com.mingyuan.wxy.tools.cloud.sentinel.constant.CommonConstant.TEST_FALLBACK;
 
 @Service
 @Slf4j

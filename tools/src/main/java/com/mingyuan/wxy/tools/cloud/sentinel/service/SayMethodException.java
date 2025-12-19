@@ -1,4 +1,4 @@
-package com.mingyuan.wxy.cloud.sentinel.service;
+package com.mingyuan.wxy.tools.cloud.sentinel.service;
 
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 

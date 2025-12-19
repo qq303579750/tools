@@ -1,6 +1,5 @@
-package com.mingyuan.wxy.cloud.sentinel.config;
+package com.mingyuan.wxy.tools.cloud.sentinel.config;
 
-import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.annotation.aspectj.SentinelResourceAspect;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
@@ -10,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Arrays;
 
-import static com.mingyuan.wxy.cloud.sentinel.constant.CommonConstant.SAY;
-import static com.mingyuan.wxy.cloud.sentinel.constant.CommonConstant.TEST_FALLBACK;
+import static com.mingyuan.wxy.tools.cloud.sentinel.constant.CommonConstant.SAY;
+import static com.mingyuan.wxy.tools.cloud.sentinel.constant.CommonConstant.TEST_FALLBACK;
 
 @Configuration
 public class SentinelConfig {

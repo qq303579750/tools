@@ -1,4 +1,4 @@
-package com.mingyuan.wxy.cloud.sentinel;
+package com.mingyuan.wxy.tools.cloud.sentinel;
 
 import com.alibaba.csp.sentinel.slots.block.degrade.DegradeRule;
 

@@ -1,4 +1,4 @@
-package com.mingyuan.wxy.cloud.sentinel.config;
+package com.mingyuan.wxy.tools.cloud.sentinel.config;
 
 import com.alibaba.csp.sentinel.init.InitFunc;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
@@ -7,8 +7,8 @@ import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 
 import java.util.Arrays;
 
-import static com.mingyuan.wxy.cloud.sentinel.constant.CommonConstant.SAY;
-import static com.mingyuan.wxy.cloud.sentinel.constant.CommonConstant.TEST_FALLBACK;
+import static com.mingyuan.wxy.tools.cloud.sentinel.constant.CommonConstant.SAY;
+import static com.mingyuan.wxy.tools.cloud.sentinel.constant.CommonConstant.TEST_FALLBACK;
 
 public class FlowRuleInitFunc implements InitFunc {
     @Override
